@@ -11,7 +11,7 @@ class MainViewModel {
     val lastName = mutableStateOf("")
     val email = mutableStateOf("")
     val mobileNum = mutableStateOf(0L)
-    val age = mutableStateOf(0)
+    val age = mutableStateOf(0L)
     val selectedCourse = mutableStateOf("")
     val selectedSubCourse = mutableStateOf("")
 
