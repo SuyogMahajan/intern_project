@@ -33,6 +33,7 @@ import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.modifier.modifierLocalProvider
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -93,6 +94,8 @@ fun LoginScreen(viewModel: MainViewModel = MainViewModel()) {
                     fontSize = 24.sp,
                     modifier = Modifier.padding(20.dp),
                     color = Color.Black
+                    , fontFamily = fontFamily,
+                    fontWeight = FontWeight.ExtraBold
                 )
 
                 Row(
